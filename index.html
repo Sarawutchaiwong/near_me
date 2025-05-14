@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ที่เที่ยวแถวบ้าน</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-fixed min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('./img/15634392837_777f361c16_h.jpg');">
+  <div class="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-md z-0"></div>
+
+  <div class="relative z-10">
+  <div class="relative z-10">
+
+    <nav class=" fixed top-2 left-2 right-2 z-50 rounded-xl ">
+      <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+       
+        
+        <a href="index.html" class="relative flex items-center justify-center w-20 h-20 group hover:scale-110 transition-transform duration-300">
+          <span class="absolute inline-flex h-full w-full animate-pulse rounded-full bg-sky-400 opacity-30 group-hover:opacity-50"></span>
+          <svg class="w-12 h-12 text-gray-800 dark:text-white relative z-10 drop-shadow-lg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M8.64 4.737A7.97 7.97 0 0 1 12 4a7.997 7.997 0 0 1 6.933 4.006h-.738c-.65 0-1.177.25-1.177.9 0 .33 0 2.04-2.026 2.008-1.972 0-1.972-1.732-1.972-2.008 0-1.429-.787-1.65-1.752-1.923-.374-.105-.774-.218-1.166-.411-1.004-.497-1.347-1.183-1.461-1.835ZM6 4a10.06 10.06 0 0 0-2.812 3.27A9.956 9.956 0 0 0 2 12c0 5.289 4.106 9.619 9.304 9.976l.054.004a10.12 10.12 0 0 0 1.155.007h.002a10.024 10.024 0 0 0 1.5-.19 9.925 9.925 0 0 0 2.259-.754 10.041 10.041 0 0 0 4.987-5.263A9.917 9.917 0 0 0 22 12a10.025 10.025 0 0 0-.315-2.5A10.001 10.001 0 0 0 12 2a9.964 9.964 0 0 0-6 2Zm13.372 11.113a2.575 2.575 0 0 0-.75-.112h-.217A3.405 3.405 0 0 0 15 18.405v1.014a8.027 8.027 0 0 0 4.372-4.307ZM12.114 20H12A8 8 0 0 1 5.1 7.95c.95.541 1.421 1.537 1.835 2.415.209.441.403.853.637 1.162.54.712 1.063 1.019 1.591 1.328.52.305 1.047.613 1.6 1.316 1.44 1.825 1.419 4.366 1.35 5.828Z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+
+       
+        <div class="flex-1 flex justify-center">
+          
+        </div>
+
+        
+        <div id="navbar" class="hidden md:flex space-x-6 items-center">
+          <a href="index.html" class="flex items-center gap-2 text-gray-900 dark:text-white hover:text-sky-500 hover:scale-110 transition-transform duration-300">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a href="about.html" class="flex items-center gap-2 text-gray-900 dark:text-white hover:text-sky-500 hover:scale-110 transition-transform duration-300">
+            <i class="fas fa-landmark"></i> About Me
+          </a>
+          
+        </div>
+
+       
+        <button data-collapse-toggle="navbar" class="md:hidden p-2 rounded-lg focus:outline-none hover:bg-sky-100 dark:hover:bg-sky-900 transition">
+          <i class="fas fa-bars text-xl text-gray-600 dark:text-white"></i>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mb-10"></div>
+
+    <div class="flex items-center justify-center min-h-screen relative">
+      <main class="space-y-16 text-white relative">
+        
+        <span class="absolute flex size-40 rounded-full content-center bg-gray-500"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
+          <span class="relative inline-flex size-50 rounded-full bg-sky-500">
+            
+            <svg class="w-40 h-40 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M8.64 4.737A7.97 7.97 0 0 1 12 4a7.997 7.997 0 0 1 6.933 4.006h-.738c-.65 0-1.177.25-1.177.9 0 .33 0 2.04-2.026 2.008-1.972 0-1.972-1.732-1.972-2.008 0-1.429-.787-1.65-1.752-1.923-.374-.105-.774-.218-1.166-.411-1.004-.497-1.347-1.183-1.461-1.835ZM6 4a10.06 10.06 0 0 0-2.812 3.27A9.956 9.956 0 0 0 2 12c0 5.289 4.106 9.619 9.304 9.976l.054.004a10.12 10.12 0 0 0 1.155.007h.002a10.024 10.024 0 0 0 1.5-.19 9.925 9.925 0 0 0 2.259-.754 10.041 10.041 0 0 0 4.987-5.263A9.917 9.917 0 0 0 22 12a10.025 10.025 0 0 0-.315-2.5A10.001 10.001 0 0 0 12 2a9.964 9.964 0 0 0-6 2Zm13.372 11.113a2.575 2.575 0 0 0-.75-.112h-.217A3.405 3.405 0 0 0 15 18.405v1.014a8.027 8.027 0 0 0 4.372-4.307ZM12.114 20H12A8 8 0 0 1 5.1 7.95c.95.541 1.421 1.537 1.835 2.415.209.441.403.853.637 1.162.54.712 1.063 1.019 1.591 1.328.52.305 1.047.613 1.6 1.316 1.44 1.825 1.419 4.366 1.35 5.828Z" clip-rule="evenodd"/>
+            </svg>
+
+          
+
+            
+          </span>
+        </span>
+
+        <div class="absolute top-20 left-[10rem] transform -translate-y-50">
+          <a href="1.html">
+            <button class="w-80 h-80 rounded-full overflow-hidden shadow-lg hover:scale-110 transition duration-300">
+              <img src="./img/temple.jpg" alt="Left Circle Button Image" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-300" />
+            </button>
+          </a>
+        </div>
+
+        <div class="absolute top-20 right-[10rem] transform -translate-y-50">
+          <a href="2.html">
+            <button class="w-80 h-80 rounded-full overflow-hidden shadow-lg hover:scale-110 transition duration-300">
+              <img src="./img/chiangmaigate.jpg" alt="Right Circle Button Image" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-300" />
+            </button>
+          </a>
+        </div>
+
+        <div class="absolute bottom-[10rem] left-[10rem] transform -translate-y-50">
+          <a href="3.html">
+            <button class="w-80 h-80 rounded-full overflow-hidden shadow-lg hover:scale-110 transition duration-300">
+              <img src="./img/rimping.jpg" alt="Left Circle Button Image" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-300" />
+            </button>
+          </a>
+        </div>
+
+        <div class="absolute bottom-40 right-[10rem] transform -translate-y-50">
+          <a href="4.html">
+            <button class="w-80 h-80 rounded-full overflow-hidden shadow-lg hover:scale-110 transition duration-300">
+              <img src="./img/airport.jpg" alt="Right Circle Button Image" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-300" />
+            </button>
+          </a>
+        </div>
+        
+        <div class="absolute bottom-[-9.5rem] left-[20rem] transform -translate-y-50">
+          <a href="5.html">
+            <button class="w-80 h-80 rounded-full overflow-hidden shadow-lg hover:scale-110 transition duration-300">
+              <img src="./img/guan_imm.jpg" alt="Left Circle Button Image" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-300" />
+            </button>
+          </a>
+        </div>
+
+        <div class="absolute bottom-[-9.5rem] right-[20rem] transform -translate-y-50">
+          <a href="6.html">
+            <button class="w-80 h-80 rounded-full overflow-hidden shadow-lg hover:scale-110 transition duration-300">
+              <img src="./img/meakhaa.jpg" alt="Right Circle Button Image" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-300" />
+            </button>
+          </a>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <footer class=" text-white py-6 mt-[-8rem]">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm opacity-40">&copy; 2025 ที่เที่ยวแถวบ้าน. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
